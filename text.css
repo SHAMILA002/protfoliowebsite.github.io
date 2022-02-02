@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap');
+
+body{
+  /*  background-color: rgba(0, 183, 255, 0.952); */
+ /* background: linear-gradient(to top,red,green); */
+  background: rgb(1, 36, 37);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.navbar{
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 18px;
+     background-color: black;
+     color: white;
+}
+ .logo img{
+  height: 160px;
+}
+
+.logo h3{
+  color: white;
+}
+.nav-links a {
+    color: white;
+}
+.menu{
+  display: flex;
+  gap: 1em;
+  font-size: 15px;
+}
+.menu li:hover{
+  background-color: rgba(240, 255, 255, 0.61);
+  border-radius: 5px;
+  transition: 0.5s ease-in;
+}
+.menu{
+  padding: 5px 4px 0 0;
+}
+.user h3{
+  padding-left: 5%;
+  
+}
+.user p{
+  padding-left: 5%;
+  
+}
+
+
+
+
+ 
+
+
+
+.navbar{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  background-color: black;
+  color: white;
+}
+header .user img{
+  height: 17rem;
+  width:17rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: .7rem solid  brown;
+  align-items: center;
+}
+#menu{
+  position: fixed;
+  top: 4rem; right:4rem;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index:1000;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 15rem;
+
+}
+section{
+  min-height: 100vh;
+  padding: 1rem;
+  padding-left: 32%;
+
+}
+.home h3{
+  font-size: 2.5rem;
+  color:bisque
+}
+ h1{
+font-size: 4rem;
+}
+p{
+  color: beige;
+}
+.btn{
+  padding: .3rem 1rem;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  margin-top:1rem;
+  font-size: 2rem;
+  border-radius: 4rem;
+  
+
+}
+.btn:hover{
+  background-color: yellow;
+}
+
+
+.ABOUT h2{
+  color: rgb(122, 165, 42);
+}
+.ABOUT h4 scam{
+  color: brown;
+}
+.HOME h1 scam{
+  color: darkmagenta;
+}
+.EDUCATION h2{
+  color: rgb(122, 165, 42);
+}
+.EDUCATION h3{
+  color: brown;
+}
+.SKILLS h2{
+  
+  color: rgb(122, 165, 42);
+}
+.CONTACTS h2{
+  color: rgb(122, 165, 42);
+
+}
+.CONTACTS p scam{
+  color: brown;
+}
